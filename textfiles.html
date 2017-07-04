@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PowerShell Text Files</title>
+</head>
+<body>
+    <div class="w3-container w3-teal">
+        <h3>JPM Tech Zone</h3>
+        <hr>
+    </div>
+    <link rel="stylesheet" type="text/css" href="stylesheets/tz-styles.css">
+    <h1>PowerShell Snippets</h1>
+    <h2>Text Files</h2>
+    <br>
+    <button type="button" id="myBtn" onclick="myBtnFunction()">Try it</button>
+
+    <br>
+    <p id="demo2" onclick="myFunction()">Click me to change my text color.</p>
+    <br>
+
+    <p>A function is triggered when the p element is clicked. The function sets the color of the p element to red.</p>
+    <br>
+
+    <a href="index.html">Home</a> or <a href="PowershellResources.html">Back</a><br>
+    <br>
+
+    <hr>
+    <footer class="w3-container w3-teal">
+        <p class id="ftr">Copyright of  JPM</p>
+    </footer>
+
+
+    <script>
+        function myBtnFunction() {
+            var x = document.getElementById("myBtn");
+                x.disabled = true;
+        }
+    </script>
+    <script>
+        function myFunction() {
+            document.getElementById("demo2").style.color = "red";
+        }
+    </script>
+
+</body>
+</html>
