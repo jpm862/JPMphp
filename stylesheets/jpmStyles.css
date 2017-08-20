@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+    font-family:: "Helvetica Neue", Verdana, Arial, sans-serif;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+}
